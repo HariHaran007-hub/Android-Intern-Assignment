@@ -20,7 +20,7 @@ class MainActivity : BaseActivity() {
     }
 
     private fun getDetails(){
-        //Network call is successfully completed
+        //Network call is successfully completedd
         //TODO: Enhance the api integration
         mainVM.getPizzaDetails().observe(this){
             Log.d("TAG", "getDetails: $it")
