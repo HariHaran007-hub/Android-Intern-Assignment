@@ -14,12 +14,16 @@ class MainActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        viewModel = getViewModel<MainViewModel>()
-        mainVM = viewModel as MainViewModel
-        getDetails()
+        viewModelSetUp()
+        fetchPizzaDetails()
     }
 
-    private fun getDetails(){
+    private fun viewModelSetUp(){
+        viewModel = getViewModel<MainViewModel>()
+        mainVM = viewModel as MainViewModel
+    }
+
+    private fun fetchPizzaDetails(){
         //Network call is successfully completed..
         //TODO: Enhance the api integration
         mainVM.getPizzaDetails().observe(this){

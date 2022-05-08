@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">InternShipProject</string>
+    <string name="name">Name:</string>
+    <string name="description">Description:</string>
+    <string name="this_is_the_pizza_that_is_tasty_to_eat_and_this_is_emmy">This is the pizza that is tasty to eat and this is emmy</string>
 </resources>
