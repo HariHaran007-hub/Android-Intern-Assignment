@@ -3,10 +3,8 @@ package com.example.internshipproject.ui.viewmodel
 import android.app.Application
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.Transformations
-import androidx.lifecycle.liveData
 import com.example.internshipproject.base.viewmodel.BaseViewModel
-import com.example.internshipproject.model.PizzaResponse
+import com.example.internshipproject.data.model.PizzaResponse
 import com.example.internshipproject.network.NetWorkUseCase
 
 class MainViewModel(

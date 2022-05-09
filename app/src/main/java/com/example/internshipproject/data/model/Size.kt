@@ -1,4 +1,4 @@
-package com.example.internshipproject.model
+package com.example.internshipproject.data.model
 
 
 import com.google.gson.annotations.SerializedName
@@ -9,5 +9,7 @@ data class Size(
     @SerializedName("name")
     val name: String? = null,
     @SerializedName("price")
-    val price: Int? = null
+    val price: Int? = null,
+
+    var crustName: String? = null
 )

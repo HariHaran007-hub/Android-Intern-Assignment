@@ -3,4 +3,8 @@
     <string name="name">Name:</string>
     <string name="description">Description:</string>
     <string name="this_is_the_pizza_that_is_tasty_to_eat_and_this_is_emmy">This is the pizza that is tasty to eat and this is emmy</string>
+    <string name="crust_name">Crust name:</string>
+    <string name="crust_size">Crust size:</string>
+    <string name="price_120_00">Price: 120.00</string>
+    <string name="customize">Customize</string>
 </resources>

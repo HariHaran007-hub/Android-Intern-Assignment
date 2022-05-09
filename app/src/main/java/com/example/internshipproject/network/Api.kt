@@ -1,6 +1,6 @@
 package com.example.internshipproject.network
 
-import com.example.internshipproject.model.PizzaResponse
+import com.example.internshipproject.data.model.PizzaResponse
 import retrofit2.Call
 import retrofit2.http.GET
 

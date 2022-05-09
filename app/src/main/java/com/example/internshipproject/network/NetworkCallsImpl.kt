@@ -3,9 +3,8 @@ package com.example.internshipproject.network
 import com.example.internshipproject.base.network.ApiResult
 import com.example.internshipproject.base.network.BaseDataSourceNetwork
 import com.example.internshipproject.base.safeApiCall
-import com.example.internshipproject.model.PizzaResponse
+import com.example.internshipproject.data.model.PizzaResponse
 import kotlinx.coroutines.Dispatchers
-import retrofit2.Retrofit
 
 class NetworkCallsImpl : BaseDataSourceNetwork() {
     override fun disableNetworkErrorPrompt() {
